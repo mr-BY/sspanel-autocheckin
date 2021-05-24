@@ -130,7 +130,7 @@ send_message() {
                 else
                     if [ $i -lt 10 ]; then
                         let 'i++'
-                        Sleep 2s
+                        sleep 2s
                     else
                         echo -e "Server 酱Turbo 推送结果: 检查超时，请自行确认结果"
                     fi
